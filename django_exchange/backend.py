@@ -27,7 +27,7 @@ class ExchangeEmailBackend(BaseEmailBackend):
             return False
 
         try:
-            self.credentials = Credentials(username=f'{self.host}\\{self.username}', password=self.password)
+            self.credentials = Credentials(username=f'{self.domain}\\{self.username}', password=self.password)
             return True
         except Exception:
             if not self.fail_silently:
