@@ -15,3 +15,4 @@ EMAIL_HOST_PASSWORD = 'password'
 EMAIL_DOMAIN = 'domain.example.com'  # This is the only new setting.
 ```
 
+Ciao.
